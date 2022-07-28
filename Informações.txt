@@ -1,0 +1,31 @@
+rosa: #cf0063
+rosa-2: #dd1173
+rosa-3: #fc0a7e
+roxo: #350e47
+cinza: #333
+cinza-2: #1b1b1b
+cinza-3:#a8a8a8
+cinza-4: #6b6b6b
+branco: #fff
+
+font: Gothic A1
+
+animação:
+elemento {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    opacity: 0;
+    margin-top: 10%;
+    width: 0%
+  }
+
+  to {
+    opacity: 1;
+    margin-top: 0%;
+    width: 100%;
+  }
+}
