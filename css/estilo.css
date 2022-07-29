@@ -148,3 +148,28 @@ header section .titulos h3 {
     margin-top: 30px;
   }
 }
+/*Sobre*/
+#sobre {
+  height: auto;
+  text-align: center;
+  background-color: var(--cinza-2);
+  padding-top: 80px;
+}
+#sobre .titulos p {
+  display: inline-block;
+  margin-bottom: 15px;
+  color: var(--cinza-3);
+  font-size: 1.2rem;
+  letter-spacing: 1.5rem;
+  text-transform: uppercase;
+}
+#sobre .titulos h2 {
+  font-size: 3.8rem;
+  line-height: 4.8rem;
+  font-weight: 700;
+  color: var(--branco);
+}
+#sobre .img {
+  width: 80%;
+  margin: 30px auto 0;
+}
